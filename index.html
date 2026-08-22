@@ -219,12 +219,12 @@
       border-color: #dddcff;
     }
 
-    /* Scrollable Frame Container */
+    /* Option 2 Container Settings */
     .dashboard-frame-shell {
       flex: 1;
       min-height: 0;
       margin: 14px 18px 18px;
-      overflow: auto;
+      overflow: auto; /* Enables scrolling for the zoomed content */
       background: rgba(255, 255, 255, 0.82);
       border: 1px solid rgba(255, 255, 255, 0.92);
       border-radius: 20px;
@@ -235,7 +235,7 @@
       z-index: 1;
     }
 
-    /* Scaled to bring internal Power BI engine to true 100% full monitor size */
+    /* Option 2 Iframe Scaling */
     #powerbi-frame {
       width: 100%;
       height: 100%;
@@ -243,8 +243,8 @@
       display: block;
       border: none;
       background: #ffffff;
-      zoom: 260%;
-      -moz-transform: scale(2.6);
+      zoom: 160%;
+      -moz-transform: scale(1.6);
       -moz-transform-origin: 0 0;
     }
 
